@@ -1,4 +1,4 @@
-FROM ubi8/s2i-base:rhel8.6
+FROM registry.access.redhat.com/ubi8/php-74:1-63
 
 # This image provides an Apache+PHP environment for running PHP
 # applications.
