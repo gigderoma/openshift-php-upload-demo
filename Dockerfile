@@ -9,6 +9,7 @@ COPY css/ css
 COPY includes/ includes
 COPY uploaded/ uploaded
 RUN chmod -Rf 777 uploaded
+RUN sed -i "s/Listen 80/Listen 8080/" /etc/apache2/ports.conf 
 
 EXPOSE 8880
 
