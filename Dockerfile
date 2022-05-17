@@ -8,7 +8,7 @@ COPY upload.php upload.php
 COPY css/ css
 COPY includes/ includes
 COPY uploaded/ uploaded
-RUN chmod -rf 777 uploaded
+RUN chmod -Rf 777 uploaded
 
 EXPOSE 80
 
