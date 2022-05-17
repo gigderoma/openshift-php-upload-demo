@@ -45,5 +45,5 @@ jobs:
     # Push the image to Docker Container Registry
     - name: Push the image to docker.io
       run: |
-        docker push $REGISTRY_HOSTNAME/$IMAGE_NAME:$GITHUB_SHA
+        docker push $REGISTRY_HOSTNAME/$IMAGE_NAME:latest
 
