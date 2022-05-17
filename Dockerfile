@@ -11,6 +11,8 @@ COPY uploaded/ uploaded
 RUN chmod -Rf 777 uploaded
 RUN sed -i "s/Listen 80/Listen 8880/" /etc/apache2/ports.conf 
 
+VOLUME /var/www/html/uploaded
+
 EXPOSE 8880
 
 USER 1001
