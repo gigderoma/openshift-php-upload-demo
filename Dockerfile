@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/php-74:1-63
+FROM php:7.4-apache
 
 # This image provides an Apache+PHP environment for running PHP
 # applications.
