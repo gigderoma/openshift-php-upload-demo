@@ -5,7 +5,7 @@
 </hgroup>
    
 <?php
-$datadir = "/opt/app-root/src/uploaded";
+$datadir = "/var/www/html/uploaded";
 /* Display all file except core application files */
 if ($handle = opendir($datadir)) {
    while (false !== ($file = readdir($handle))) {
