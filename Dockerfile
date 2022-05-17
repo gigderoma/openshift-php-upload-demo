@@ -10,7 +10,7 @@ COPY includes/ includes
 COPY uploaded/ uploaded
 RUN chmod -Rf 777 uploaded
 
-EXPOSE 80
+EXPOSE 8880
 
 USER 1001
 
