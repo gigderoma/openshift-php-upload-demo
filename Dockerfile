@@ -3,7 +3,7 @@ WORKDIR /var/www/html
 
 COPY index.php index.php
 COPY info.php infor.php
-COPY lastfiles.php lastfiles.php
+COPY listfiles.php listfiles.php
 COPY upload.php upload.php
 COPY css/ css
 COPY includes/ includes
