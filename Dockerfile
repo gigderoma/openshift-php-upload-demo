@@ -14,4 +14,4 @@ VOLUME /var/www/html/uploaded
 
 EXPOSE 8880
 
-USER 1001:1001
+USER 99:99
