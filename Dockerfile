@@ -10,7 +10,6 @@ COPY includes/ includes
 
 RUN sed -i "s/Listen 80/Listen 8880/" /etc/apache2/ports.conf 
 
-VOLUME /var/www/html/uploaded
 
 EXPOSE 8880
 
