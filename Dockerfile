@@ -9,6 +9,7 @@ COPY css/ css
 COPY includes/ includes
 COPY uploaded/ uploaded
 RUN chmod -Rf 777 uploaded
+RUN chown 1001:1001 uploaded
 RUN sed -i "s/Listen 80/Listen 8880/" /etc/apache2/ports.conf 
 
 VOLUME /var/www/html/uploaded
