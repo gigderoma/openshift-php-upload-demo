@@ -13,4 +13,3 @@ RUN sed -i "s/Listen 80/Listen 8880/" /etc/apache2/ports.conf
 
 EXPOSE 8880
 
-USER 99:99
